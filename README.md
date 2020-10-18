@@ -225,6 +225,16 @@ You are requested to create your profile using the above link to be a part of it
    - Profile 
    - Release
    
+36. What is the difference between WidgetsApp and MaterialApp?
+
+	The below comparison chart explains the basic differences between WidgesApp and MaterialApp:
+
+|                 WidgetsApp            |                   MaterialApp                        |
+|                  :---:                |                     :---:                            | 
+|WidgetsApp is used for basic navigation. It includes many foundational widgets together with the widgets library that Flutter uses to create the UI of our app.|	MaterialApp, along with the material library, is a layer that is built on the top of WidgetsApp and its library. It implements Material Design that provides a unified look and feels to our app on any platform.|
+|WidgetsApp class is the base class for MaterialApp class.|	It offers many interesting tools such as Navigator or Theme for developing the application.|
+|It wraps several widgets that are required for building the application.	|It wraps several widgets that are required for building material design applications.|
+   
 
 ## Contributors
 
